@@ -1,0 +1,63 @@
+{
+  "@context": "https://mailschema.org/contexts/map-0.3.jsonld",
+  "@type": "MailAction",
+  "@id": "urn:uuid:108dac0b-9889-56dd-93ac-a6324ee33a21",
+  "profile": "https://mailschema.org/profiles/map/0.3",
+  "type": {
+    "id": "https://mailschema.org/types/campaign-send-approval",
+    "version": "0.1",
+    "contractDigest": "sha-256:de3c88a0712adb1d0c6e82f437b825c83520d8e1c44c7b032a2cfcfe5ce55731"
+  },
+  "issuedAt": "2026-10-23T17:08:39Z",
+  "expiresAt": "2026-10-23T17:26:39Z",
+  "inLanguage": "en",
+  "service": {
+    "id": "https://api.nitrosend.com",
+    "tenant": "urn:nitrosend:brand:13436"
+  },
+  "recipient": "alicelabsops62b082@guerrillamailblock.com",
+  "subject": {
+    "id": "https://api.nitrosend.com/v1/my/campaigns/15140",
+    "title": "Alice Labs ops self-test 2"
+  },
+  "terms": {
+    "id": "https://api.nitrosend.com/v1/my/map/approvals/296",
+    "version": "sha-256:b510acad68d9b0f20fd7eb110b2176ef3becb5ed046a4b511562613fd8ad34f9"
+  },
+  "human": {
+    "url": "https://app.nitrosend.com/my/map/reviews/296"
+  },
+  "details": {
+    "summary": "An agent asked to send \"Ops self-test note 2\" to 1 recipient.",
+    "requester": "An agent",
+    "content": {
+      "id": "https://api.nitrosend.com/v1/my/templates/24248",
+      "revision": "2",
+      "digest": "sha-256:120bcd65b9fc14fba2387424d0e161dfd966e006de6774aa0d02d4d2007432b8",
+      "title": "Ops self-test note 2"
+    },
+    "sender": {
+      "mailbox": "hello@utalabs2.nitrosend.net",
+      "name": "Alice Labs",
+      "replyTo": "hello@utalabs2.nitrosend.net"
+    },
+    "audience": {
+      "id": "urn:nitrosend:campaign-send:3165:audience",
+      "revision": "a6e1ece9bfce5faa1c3514fabb6121ef253e5e14fb4f2f382b8dcb364cdcead9",
+      "count": 1,
+      "label": "1 contact list"
+    },
+    "schedule": {
+      "mode": "scheduled",
+      "at": "2026-10-23T17:26:39Z"
+    }
+  },
+  "operations": [
+    {
+      "id": "approve"
+    },
+    {
+      "id": "decline"
+    }
+  ]
+}
